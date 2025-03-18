@@ -15,8 +15,20 @@
 #define CPPCLISTANDARD_H		200406L
 
 
-/* official standard ECMA-372 standard */
+/* official standard ECMA-372 script */
 #define CPPCLI		200406L
+
+
+/******************************************************************************
+* Example of use
+*
+* #if defined(__cplusplus_cli) && __cplusplus_cli >= CPPCLI
+* ...
+* Cpp Cli code
+* ...
+* #endif
+*
+*/
 
 
 #endif /* CPPCLISTANDARD_H */
