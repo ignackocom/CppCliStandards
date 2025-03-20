@@ -1,2 +1,2 @@
 # CppCliStandards
-Cpp Cli Standards files
+Cpp Cli standards
