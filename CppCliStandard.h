@@ -16,8 +16,20 @@
 #define CPPCLISTANDARD_H		20250318L
 
 
+#define CPPPRECLI	1L
+
 /* official standard ECMA-372 script */
 #define CPPCLI		200406L
+
+
+/******************************************************************************
+* CPLUSPLUSCLI_VERSION definition, since CPPPRECLI, ..., CPPCLI
+*/
+#if defined(__cplusplus_cli)
+#define CPLUSPLUSCLI_VERSION         __cplusplus_cli
+#else
+#define CPLUSPLUSCLI_VERSION         CPPPRECLI
+#endif
 
 
 /******************************************************************************
@@ -29,6 +41,20 @@
 * ...
 * #endif
 *
+* ---------------------------------------------------------
+* #if CPLUSPLUSCLI_VERSION == CPPPRECLI
+* ...
+* CPPPRECLI code
+* ...
+* #elif CPLUSPLUSCLI_VERSION == CPPCLI
+* ...
+* CPPCLI code
+* ...
+* #else
+* ...
+* other code
+* ...
+* #endif
 */
 
 
