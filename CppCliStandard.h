@@ -33,6 +33,15 @@
 
 
 /******************************************************************************
+**  Basic GET macros
+*/
+/* since CPPPRE98, ..., CPP23 */
+#define GET_CPLUSPLUSCLI_VERSION()			CPLUSPLUSCLI_VERSION
+
+#define GET_CPLUSPLUSCLI_VERSION_YEAR()		(CPLUSPLUSCLI_VERSION/100L)
+
+
+/******************************************************************************
 * Example of use
 *
 * #if defined(__cplusplus_cli) && __cplusplus_cli >= CPPCLI
@@ -55,6 +64,11 @@
 * other code
 * ...
 * #endif
+*
+* ---------------------------------------------------------
+* printf("cpp cli version      = %ld\n", GET_CPLUSPLUSCLI_VERSION());
+* printf("cpp cli version year = %ld\n", GET_CPLUSPLUSCLI_VERSION_YEAR());
+* 
 */
 
 
