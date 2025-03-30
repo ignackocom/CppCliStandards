@@ -1,5 +1,5 @@
 /******************************************************************************
-* \file      CppCliStandard.h
+* \file      CppCliStandards.h
 * \version   2025.03.18.01
 * \author    Peter Potrok
 * \copyright Copyright (c) 1994 - 2025
@@ -12,8 +12,8 @@
 *            https://github.com/cpredef/predef
 ******************************************************************************/
 
-#ifndef CPPCLISTANDARD_H
-#define CPPCLISTANDARD_H		20250318L
+#ifndef CPPCLISTANDARDS_H
+#define CPPCLISTANDARDS_H		20250318L
 
 
 #define CPPPRECLI	1L
@@ -72,4 +72,4 @@
 */
 
 
-#endif /* CPPCLISTANDARD_H */
+#endif /* CPPCLISTANDARDS_H */
