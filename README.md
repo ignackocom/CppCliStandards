@@ -1,5 +1,5 @@
 # CppCliStandards
-Cpp Cli standards
+Cpp Cli standard constants
 
 Example of use
 
