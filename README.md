@@ -3,17 +3,17 @@ Cpp Cli standard constants
 
 Example of use
 
-```
+```c
 #if defined(__cplusplus_cli) && __cplusplus_cli >= CPPCLI
 ...
-Cpp Cli code
+CPPCLI code
 ...
 #endif
 ```
 
 another example
 
-```
+```c
 #if CPLUSPLUSCLI_VERSION == CPPPRECLI
 ...
 CPPPRECLI code
@@ -31,7 +31,7 @@ other code
 
 another example
 
-```
+```c
 printf("cpp cli version      = %ld\n", GET_CPLUSPLUSCLI_VERSION());
 printf("cpp cli version year = %ld\n", GET_CPLUSPLUSCLI_VERSION_YEAR());
 ```
