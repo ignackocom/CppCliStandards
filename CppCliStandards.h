@@ -1,15 +1,19 @@
 /******************************************************************************
 * \file      CppCliStandards.h
-* \version   2025.03.18.01
-* \author    Peter Potrok
+* \version   2025.03.18
+* \author    Peter Potrok ( @ignackocom )
+*            ignacko.com@outlook.com
+*            https://github.com/ignackocom
 * \copyright Copyright (c) 1994 - 2025
 *            MIT License (see License.txt file)
 * \brief     Cpp Cli Standard definitions
 * \details
 *
-* \see       https://en.wikipedia.org/wiki/C%2B%2B/CLI
+* \see       https://github.com/ignackocom
+*			 https://en.wikipedia.org/wiki/C%2B%2B/CLI
 *            https://learn.microsoft.com/en-us/cpp/preprocessor/predefined-macros?view=msvc-170
 *            https://github.com/cpredef/predef
+*			 and other resources
 ******************************************************************************/
 
 #ifndef CPPCLISTANDARDS_H
